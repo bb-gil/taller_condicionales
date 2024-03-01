@@ -13,14 +13,13 @@ if x == 0:
     else:
         print(("la coordenada" ,(x , y), "esta en el eje y"))
 elif y == 0:
-    print("estas en el eje y")
+    print("la coordenada" ,(x , y),"esta en el eje X")
 elif x > 0:
     if y > 0:
-        print("estas en el cuadrante 1")
+        print("la coordenada" ,(x , y),"esta en el cuadrante 1")
     else:
-        print("estas en el cuadrante 4")
+        print("la coordenada" ,(x , y),"estas en el cuadrante 4")
 elif  y < 0:
-    if y < 0:
-        print("estas en el cuadrante 3")
-    else:
-        print("estas en el cuadrante 2")                                      
+    print("la coordenada" ,(x , y),"estas en el cuadrante 3")
+else:
+    print("la coordenada" ,(x , y),"estas en el cuadrante 2")                                      
